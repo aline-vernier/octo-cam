@@ -14,3 +14,9 @@
 # Metadata
 *.aliases
 *.lvlps
+
+# refs and data
+*.tiff
+*.dat
+*.bin
+*.csv
