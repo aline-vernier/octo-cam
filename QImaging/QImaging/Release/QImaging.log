@@ -1,0 +1,37 @@
+﻿Build started 21/06/2016 13:58:32.
+     1>Project "Z:\Programmes en Developpement\QImaging\QImaging\QImaging.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\National Instruments\LabVIEW 2014\cintools" /I"C:\Program Files\QImaging\SDK\Headers" /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D QIMAGING_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\QImaging.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\National Instruments\LabVIEW 2014\cintools" /I"C:\Program Files\QImaging\SDK\Headers" /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D QIMAGING_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\National Instruments\LabVIEW 2014\cintools" /I"C:\Program Files\QImaging\SDK\Headers" /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D QIMAGING_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\QImaging.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt localFunc.cpp LVComm.cpp
+         localFunc.cpp
+     1>localFunc.cpp(17): warning C4101: 'i' : unreferenced local variable
+     1>localFunc.cpp(15): warning C4101: 'uTable' : unreferenced local variable
+     1>localFunc.cpp(12): warning C4101: 'format' : unreferenced local variable
+     1>localFunc.cpp(13): warning C4101: 'paramMax' : unreferenced local variable
+     1>localFunc.cpp(14): warning C4101: 'paramMin' : unreferenced local variable
+     1>localFunc.cpp(207): warning C4018: '<' : signed/unsigned mismatch
+     1>localFunc.cpp(208): warning C4018: '<' : signed/unsigned mismatch
+         LVComm.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"G:\Programmes\National Instruments\LabVIEW 2013\cintools" /I"C:\Program Files\QImaging\SDK\Headers" /I"C:\Program Files (x86)\National Instruments\LabVIEW 2014\cintools" /I"C:\Program Files\QImaging\SDK\Headers" /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D QIMAGING_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\QImaging.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt QImaging.cpp
+         QImaging.cpp
+     1>QImaging.cpp(156): warning C4101: 'i' : unreferenced local variable
+     1>QImaging.cpp(154): warning C4101: 'myFrame' : unreferenced local variable
+     1>QImaging.cpp(229): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Programmes en Developpement\QImaging\Release\QImaging.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\National Instruments\LabVIEW 2013\cintools" /LIBPATH:"G:\Programmes\National Instruments\LabVIEW 2013\cintools" /LIBPATH:"C:\Program Files\QImaging\SDK\libs\i386" qcamdriver.lib labviewv.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\Programmes en Developpement\QImaging\Release\QImaging.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Programmes en Developpement\QImaging\Release\QImaging.lib" /MACHINE:X86 /SAFESEH:NO /DLL Release\dllmain.obj
+         Release\localFunc.obj
+         Release\LVComm.obj
+         Release\QImaging.obj
+         Release\stdafx.obj
+            Creating library Z:\Programmes en Developpement\QImaging\Release\QImaging.lib and object Z:\Programmes en Developpement\QImaging\Release\QImaging.exp
+         Generating code
+         Finished generating code
+         QImaging.vcxproj -> Z:\Programmes en Developpement\QImaging\Release\QImaging.dll
+     1>Done Building Project "Z:\Programmes en Developpement\QImaging\QImaging\QImaging.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.53
